@@ -34,6 +34,7 @@ nav {
 	height: 80px;
 	width: 100%;
 	border-bottom: 1px solid black;
+	background-color: rgb(167, 14, 19)
 }
 label.logo {
 	color: white;
@@ -190,6 +191,7 @@ a.active, a:hover {
     text-align: center;
     padding: 10px;
     background-color: rgb(232, 232, 235);
+	text-shadow: rgb(143, 139, 139) 0.1em 0.1em 0.2em;
 }
 
 .banner {
@@ -202,7 +204,7 @@ a.active, a:hover {
 	background-color: #e5e5f7;
 	background: radial-gradient(circle, transparent 20%, white 20%, white 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, white 20%, white 80%, transparent 80%, transparent) 25px 25px, linear-gradient( rgba(201, 20, 65, 0.199)  2px, transparent 2px) 0 -1px, linear-gradient(90deg,#ffffff36 2px, white 2px) -1px 0;
 	background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
-
+	width: 100%;
 }
 
 .banner img{
@@ -215,6 +217,9 @@ a.active, a:hover {
 	margin-left: 20px;
 	margin-top: 5px;
 	font-size: 40px;
+	width: 70%;
+	color: rgb(255, 217, 0);
+	text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .button-banner {
@@ -224,6 +229,7 @@ a.active, a:hover {
 	color: white;
 	font-weight: bold;
 	margin-left: 20px;
+	border-radius: 10px;
 	
 }
 
@@ -334,6 +340,7 @@ a.active, a:hover {
 .blog p{
 	margin-left: 20px;
 	margin-right: 10px;
+	text-align: center;
 }
 
 .mensagem-final{
