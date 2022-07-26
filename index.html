@@ -1,49 +1,187 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="index.css">
-   <title>Hackadev Sports</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="imagem/png" href="./img/favicon-ima.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="mobile.css">
+    <title>Home Imã</title>
 </head>
 <body>
-   <header><h1>Projeto Hackadev Sports</h1></header>
-   <nav>
-      <label for="integrantes">Equipe: </label>
-      <ul class="integrantes">
-         <a href="">
-            <li>Anderson</li>
-         </a>
-         <a href="">
-            <li>Eduardo</li>
-         </a>
-         <a href="">
-            <li>Jairo</li>
-         </a>
-         <a href="">
-            <li>Jean</li>
-         </a>
-         <a href="">
-            <li>Julia</li>
-         </a>
-         <a href="">
-            <li>Nayara</li>
-         </a>
-         <a href="">
-            <li>Raul</li>
-         </a>
-      </ul>
-   </nav>
-   <main>
-      <h2>
-         Especificações
-      </h2>
-      <article>
-         A primeira etapa será somente em HTML e CSS. Não poderão ser usados frameworks de estilização. 
-         Foi definido desenvolver um e-commerce de roupas esportivas.
-      </article>
-   </main>
-   <footer></footer>
+    <nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="icon"><img class="menu" src="https://img.icons8.com/glyph-neue/64/000000/menu.png"/></i>
+		</label>
+		<label class="logo"><img src="./img/logoImaPequena.png" alt="Logo da empresa imã."></label>
+		<ul>
+			<li><a class="active" href="#">Início</a></li>
+            <li><a href="#">Login</a></li>
+			<li><a href="#">Cadastre-se</a></li>
+			<li><a href="#">Catálogo</a></li>
+			<li><a href="#"><img class="carrinho" src="https://img.icons8.com/ios-filled/50/FFFFFF/shopping-bag.png"/></a></li>
+		</ul>
+	</nav>
+    <div class="header-holder">
+        <h2>IMÃ MODA ESPORTIVA</h2>
+    </div>
+
+    <main>
+
+        
+        <div class="banner">
+            <h1>RUMO AO HEXA</h1>
+            <button class="button-banner">COMPRE AGORA</button>
+            
+            <img src="./img/camisaBrasilBanner.png" alt="Foto de Chuteira Preta.">
+            
+        </div>
+
+        <h1 class="titulo-destaque">NOVIDADES!</h1>
+        <div class="produtos-destaque">
+            
+            <div class="item1">
+                <img src="./img/shortVemelhoPretoCortado.png" alt="Foto de short metade vermelho e metade preto para muay thai.">
+                <h3>SHORT PROGNE SPORTS</h3>
+                <p>Ideal para treinos e competições trazendo leveza, conforto e agilidade para o atleta, modelo tailandês com elástico contando com diversas cores e tamanhos</p>
+            </div>
+            <div class="item2">
+                <img src="./img/chuteiraNovidades.png" alt="Foto de uma camisa azul da marca puma.">
+                <h3>CHUTEIRA X 19.3 FUTSAL </h3>
+                <p>Chuteira juvenil com toque natural, potencialize seu jogo com o ajuste aconchegante e a silhueta de cano baixo que prendem a chuteira firme no pé para os movimentos de impulso e aceleração.</p>
+            </div>
+            <div class="item3">
+                <img src="./img/tenisNovidade.png" alt="Foto de um conjunto moletom esportivo azul.">
+                <h3>Tênis Asics Gel-Cumulus 24 Se</h3>
+                <p>Esteja pronta para realizar suas atividades físicas ao ar livre, academia e até mesmo para te acompanhar no dia a dia. A qualidade da Asics está em todos os detalhes, confira as tecnologias</p>
+            </div>
+        </div>
+        
+        <div class="vitrine">
+            <div class="detalhe"> </div>
+            <h2>ESCOLHA A SUA NIKE</h2>
+            <div class="container">
+                <div class="item1">
+                    <div class="item"><img src="./img/chuteiraAzulBranco.png" alt="" ></div>
+                    <p class="titulo">AZUL E BRANCO</p>
+                    <p class="preco-antigo">R$ 250,00</p>
+                    <p class="preco-novo">R$ 199,90</p>
+                </div>
+                <div class="item2">
+                    <div class="item"><img src="./img/chuteiraRosa.png" alt="" ></div>
+                    <p class="titulo">ROSA E PRETO</p>
+                    <p class="preco-antigo">R$ 250,00</p>
+                    <p class="preco-novo">R$ 199,90</p>
+                </div>
+                <div class="item3">
+                    <div class="item"><img src="./img/chuteiraVerdeAzul.png" alt="" ></div>
+                    <p class="titulo">VERDE ÁGUA</p>
+                    <p class="preco-antigo">R$ 250,00</p>
+                    <p class="preco-novo">R$ 199,90</p>
+                </div>
+                <div class="item4">
+                    <div class="item"><img src="./img/chuteiraVerdeBranco.png" alt="" ></div>
+                    <p class="titulo">VERDE E BRANCO</p>
+                    <p class="preco-antigo">R$ 250,00</p>
+                    <p class="preco-novo">R$ 199,90</p>
+                </div>
+                <div class="item5">
+                    <div class="item"><img src="./img/chuteiraPretabanner.png" alt="" ></div>
+                    <p class="titulo">PRETO CLÁSSICO</p>
+                    <p class="preco-antigo">R$ 250,00</p>
+                    <p class="preco-novo">R$ 199,90</p>
+                </div>
+            </div>
+            <div class="button-item"><button class="button-vitrine">VEJA TODAS</button></div>
+            <div class="detalhe"> </div>
+        </div>
+        
+
+        <div class="categorias">
+            <h2>EXPERIMENTE UM NOVO ESPORTE</h2>
+
+            <div class="galery">
+                <div class="fotos">
+                    <img src="./img/jogadorFutebolAmericanoCortado.png" alt="Categoria 1">
+                    <img src="./img/ciclistasCortado.png" alt="Categoria 2">
+                    <img src="./img/jogadorBasqueteCortado.png" alt="Categoria 3">
+                    <img src="./img/nadadorCortado.png" alt="Categoria 4">
+                    <img src="./img/jogadorFutebolAmericanoCortado.png" alt="Categoria 1" class="imagem-repetida">
+                </div>
+            </div>
+            <div class="detalhe" class="detalhe-categoria"> </div>
+        </div>
+        <h2 class="titulo-blog">BLOG</h2>
+        <div class="blog">
+            <div class="materia1">
+                <img src="./img/corredor.jpg" alt="Imagem de atleta se preparando para correr.">
+                <h4 class="titulo-materia">Mundial de Atletismo</h4>
+                <p>Confira as conquistas dos brasileiros na disputa, que foi realizada nos Estados Unidos.</p>
+            </div>
+            <div class="materia2">
+                <img src="./img/estadioBeisebol.jpg" alt="Foto de estadio de beisebol." class="materias">
+                <h4 class="titulo-materia">Calendário Esportivo</h4>
+                <p>Veja agora as principais competições que serão realizadas no segundo semestre de 2022.</p>
+            </div>
+            <div class="materia3">
+                <img src="./img/pistaAtletismo.jpg" alt="Foto de pista de atletismo." class="materias">
+                <h4 class="titulo-materia">Corrida para iniciantes </h4>
+                <p>A equipa da Ímã conversou com alguns profissionais e reuniu as melhores dicas para você.</p>
+            </div>
+                
+            
+        </div>
+        <button class="button-blog">VEJA MAIS POSTS</button>
+        <P class="mensagem-final">Compre seus acessórios esportivos na loja online da IMÃ!</P>
+    </main>
+    <footer>
+        <div class="inscreva">
+            <h2>FAÇA PARTE DA FAMÍLIA</h2>
+            <p>Insira seu e-mail e receba todas as notícias e promoções em primeira mão! </p>
+            <label for="">E-mail:</label>
+            <input type="email" name="email" id="email"><br>
+            <button class="button-email">ENVIAR</button>
+        </div>
+        
+        <div class="localizador">
+            <h4>LOCALIZADOR DE LOJAS</h4>
+            <p>Encontre a loja mais próxima de você</p>
+            <button class="button-footer">BUSCAR MAIS LOJAS</button>
+        </div>
+    
+        <div class="sites-estrangeiros">
+            <h4>PELO MUNDO</h4>
+            <p>Acesse o site de outros países</p>
+            <select name="paises" class="paises">
+                <option value="Brasil">BRASIL</option>
+                <option value="EUA">EUA</option>
+                <option value="Canada">CANADA</option>
+                <option value="Espanha">ESPANHA</option>
+            </select>
+        </div>
+
+        <div class="redes-sociais">
+            <h4>SIGA A IMÃ</h4>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Youtube</a>
+            <a href="#">Instagram</a>
+        </div>
+
+        <div class="COPYRIGHT">
+            <p>©Imã Learning Place</p><br>
+            <p>Rua do Parque, 361 Qd 145, Lt. Area 2, Goiânia - GO, 74343-240</p>
+        </div>
+    </footer>
+
 </body>
 </html>
