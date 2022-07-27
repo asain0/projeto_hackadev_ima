@@ -194,7 +194,7 @@ a.active, a:hover {
 	text-shadow: rgb(143, 139, 139) 0.1em 0.1em 0.2em;
 }
 
-.banner {
+.banner { 
 	display: grid;
 	grid-template-areas: 
 	"h1 button"
