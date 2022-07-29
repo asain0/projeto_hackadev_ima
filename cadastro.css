@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+   
+}
+.containerTitle {
+    background-color: #fff ;
+    padding-top: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+
+}
+.containerTitle h1 {
+    height: 30px;
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.containerTitle p {
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 3px;
+   
+     
+}
+.colorAtention {
+    margin-left: 15px;
+    color: #dd0238
+}
+.colorAsterisco {
+   color: #555
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+#container {
+    background-color: #fff ;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px ;
+    border: solid 1px  #c9c9c9;
+}
+
+li input {
+    height: 27px;
+    color:rgb(138, 138, 138);
+    width: 100%;  
+    border:rgb(136, 136, 136) solid 1px;
+    margin-bottom: 18px;  
+}
+
+li label {
+    margin-bottom: 50px;
+}
+
+i, h2{
+    display: inline-block;
+}
+
+
+.containerPerson, .containerEmail,  .containerAddress, .containerLicense  {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold; 
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;  
+}
+
+.containerPerson h2, .containerEmail h2, .containerAddress h2, i {
+    color: #000000;
+    font-size: 18px;
+    padding-bottom: 4px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.genre, .containerLicense input, .containerLicense label {
+    font-weight: lighter;
+    margin-left: 5px;
+    color: #555;
+    margin-bottom: 5px;  
+}
+
+.genre input, .genre label {
+    cursor: pointer;
+}
+
+i, p {
+    display:inline-block;
+}
+.containerLicense label, .containerLicense input {
+    padding-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+ 
+ 
+}
+
+
+.containerLicense p {
+    margin-top: 10px;
+}
+
+button {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: #dd0238;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin-left: 15px;
+    text-align: center;
+    
+  
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #000;
+    transition: .5s ;
+}
+
+
+
+/* TELA DESKTOP - MININO 991PX */
+
+/* BACKGROUND SECTION */
+
+@media (min-width:991px) {
+
+    body {
+        background: #fff;
+    }
+   
+}
+
+/* LAYOU SECTION */
+
+@media (min-width:991px) {
+
+    .containerPerson input, .containerEmail input, .containerAddress input {
+        max-width: 90%;
+    }
+
+    .containerBlock {
+        padding-left: 15px;
+        flex: 1 1;
+        border-right: solid 1px #c9c9c9;
+    }
+
+    .containerAddress {
+        padding-left: 23px;
+        flex: 1 1;
+        border-right: solid 1px #c9c9c9;
+    }
+
+    .containerLicense {
+       
+        flex: 1 1;
+    }
+
+    #container {
+        display: flex;
+    }
+    
+
+   
+}
+
