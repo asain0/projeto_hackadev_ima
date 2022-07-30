@@ -1,0 +1,380 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   --main-border: rgb(255, 158, 30);
+}
+
+header, footer{
+   background-color: rgb(28, 28, 197);
+   
+   font-size: 20px;
+   font-weight: 800;
+
+   height: 10vh;
+   width: 100vw;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+h4, h6{
+   margin-bottom: 15px;
+}
+
+main{
+   height: 80vh;
+   padding: 5px;
+   margin: 5px 5vw;
+}
+
+.sacola{
+   width: 100%;
+   height: 100%;
+}
+
+.sacola__titulos{
+   color: var( --main-border);
+   
+   padding: 10px;
+   border: 1px solid  var( --main-border);
+   display: flex;
+   /* display: grid;
+   grid-template-columns: 2fr 1fr 1fr 1fr 1fr; */
+}
+.sacola__titulos>*{
+   width: 15%;
+}
+
+.sacola__titulos__produto{
+   width: 40%;
+}
+
+.sacola__item{
+   
+   padding: 10px;
+   border-bottom: 1px solid rgb(201, 201, 201);
+   
+   display: flex;
+}
+
+.sacola__item>*{
+   width: 15%;
+   margin: 15px 0;
+}
+
+
+.sacola__item__produto{
+   width: 40%;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+}
+
+.sacola__item__entrega, .sacola__item__preco, .sacola__item__quantidade, .sacola__item__total{
+   align-items: center;
+   display: flex;
+}
+
+.sacola__quantidade__btn{
+   background-color: var(--main-border);
+   color: #fff;
+   font-size: 15px;
+
+   margin: 0 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 700;
+   border-radius: 50%;
+   width: 25px;
+   height: 25px;
+}
+.sacola__item__produto img{
+   width: 20%;
+}
+
+.sacola__complemento{
+   display: inline-grid;
+   grid-template-columns: 3fr auto;
+   width: 100%;
+   padding: 15px 0;
+}
+
+button, input{
+   color: var(--main-border);;
+   background-color: #fff;
+ 
+   border: 1px solid var( --main-border);;
+
+   /* width: 50%; */
+   padding: 5px;
+}
+
+.sacola__complemento__desconto{
+   justify-content: end;
+   max-width: 500px;
+}
+
+.sacola__total>*{
+   margin-top: 20px;
+   justify-items: center;
+}
+
+.sacola__desconto__input, .cupom__desconto__btn{
+   width: 30%;
+}
+.add__desconto{
+   display: flex;
+   justify-content: space-between;
+}
+.addTextComponent{
+   margin-top: 0;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.addTextComponent>*{
+   width: 50%;
+}
+
+.sacola__total{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.sacola__total>*{
+   display: flex;
+   justify-content: space-between;
+}
+/* 
+.sacola__opcoes{
+   display: grid;
+    grid-template-columns: 2fr 3fr; 
+   column-gap: 150px;
+   height: 35px;
+} */
+
+.sacola__opcoes{
+   display: flex;
+   justify-content: space-between;
+   height: 35px;
+}
+
+.sacola__entrega_calcular_btn{
+   width: 150px;
+   height: 40px;
+}
+.fechar__pedido__btn{
+   min-width: 300px;
+}
+.escolher__pecas__btn{
+   max-width: 300px;
+}
+
+
+
+/* 
+320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV's */
+
+@media (max-width: 768px) {
+
+   main{
+      margin: 0px;
+   }
+
+   h4{
+      text-align: center;
+      font-size: 24px;
+   }
+
+   .sacola__complemento{
+      display: flex;
+      flex-direction: column;
+   }
+   
+   .sacola__complemento__desconto{
+      margin-top: 15px;
+   }
+   .sacola__titulos{
+      justify-content: space-between;
+   }
+   .sacola__item{
+      justify-content: space-between;
+   }
+
+   .sacola__item__produto{
+      flex-direction: column;
+   }
+
+   .off_mobile{
+      display: none;
+   }
+
+   .sacola__opcoes{
+      display: flex;
+      height: 35px;
+      justify-content: space-between;
+   }
+   .sacola__opcoes>*{
+      min-width: 40%;
+   }
+ 
+   .sacola__titulos__produto{
+      width: 20%;
+   }
+   .sacola__item__produto img{
+      /* height: 100px; */
+      width: 100px;
+   }
+   .sacola__item__produto{
+      width: 20%;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+   }
+
+   .add__desconto{
+      flex-direction: column;
+   }
+   .cupom__desconto{
+      text-align: center;
+      font-weight: 600;
+      font-size: 24px;
+   }
+/* .sacola__quantidade__btn:hover{
+   background-color: var(--main-border);
+   color: white;
+   
+} */
+.sacola__quantidade__btn{
+   background-color: #fff;
+   color: var(--main-border);
+   font-size: 15px;
+   border: none;
+   margin: 0 5px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   font-weight: 700;
+   width: 25px;
+   height: 25px;
+   }
+   
+}
+
+
+
+
+/* Celular */
+@media (max-width: 320px) {
+   *{
+      background-color: pink;
+      width: 100%;
+   }
+
+   main{
+      padding: 1px;
+   }
+   
+   h4{
+      text-align: center;
+      font-size: 24px;
+   }
+
+   .sacola{
+      width: 100%;
+   }
+
+   .sacola__titulos{
+      display: none;
+   }
+
+   .sacola__item{
+      flex-direction: column;
+   }
+
+   .sacola__complemento{
+      display: flex;
+      flex-direction: column;
+   }
+   
+   .sacola__complemento__desconto{
+      margin-top: 15px;
+   }
+   .sacola__titulos{
+      justify-content: space-between;
+   }
+   .sacola__item{
+      justify-content: space-between;
+   }
+
+   .sacola__item>*{
+      width: auto;
+      margin: 2px auto;
+   }
+   .off_mobile{
+      display: none;
+   }
+
+   .sacola__opcoes{
+      display: flex;
+      height: 35px;
+      justify-content: space-between;
+   }
+   .sacola__opcoes>*{
+      min-width: 40%;
+   }
+ 
+   .sacola__titulos__produto{
+      width: 20%;
+   }
+   .sacola__item__produto img{
+      /* height: 100px; */
+      width: 100%;
+   }
+   .sacola__item__produto{
+      width: 100%;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      text-align: center;
+   }
+
+   .add__desconto{
+      flex-direction: column;
+   }
+   .cupom__desconto{
+      text-align: center;
+      font-weight: 600;
+      font-size: 24px;
+   }
+/* .sacola__quantidade__btn:hover{
+   background-color: var(--main-border);
+   color: white;
+   
+} */
+.sacola__quantidade__btn{
+   background-color: #fff;
+   color: var(--main-border);
+   font-size: 15px;
+   border: none;
+   margin: 0 5px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   font-weight: 700;
+   width: 25px;
+   height: 25px;
+   }
+   
+}
+
