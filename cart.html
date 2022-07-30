@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meu carrinho de compras</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+<body>
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <h1 class="text-light">
+                    <a href="index.html">
+                <img src="images/logo-blue-lp.webp" width="125px">
+            </a>
+            </h1>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="accountpage.html">Acount</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    <!---------------------------cart items details--------------->
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Produto</th>
+                <th>Unidade</th>
+                <th>valor</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/prod_1.png">
+                        <div>
+                            <p> CHUTEIRA X 19.3 FUTSAL</p>
+                            <small>Price: R$ 179,99 Até 4 x R$45,00 sem juros</small>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>179,99</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/prod_2.png">
+                        <div>
+                            <p>Calção/Short de Treino PROGNE SPORTS para Muay Thai</p>
+                            <small>Price: R$ 64,90 Até 2 x R$32,45 sem juros</small>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$64,90</td>
+            </tr>
+            
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$244.89</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$20.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$264.89</td>
+                </tr>
+            </table>
+        </div>
+        
+        <button type="button" title="Finalizar Compra" class="btn" style="flex-direction: column;"> <span><span>Finalizar Compra</span></span> </button>
+    
+    </form>
+
+  </div>
+    </div>
+
+
+    <!--------------------------------------footer---------------------------->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App For Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+
+                <div class="footer-col-2">
+                    <h3>Download Our App</h3>
+                    <img src="images/logo-blue-lp.webp">
+                    <p>Nosso propósito é tornar de forma sustentável o prazer e os benefícios do esporte acessíveis a muitos.</p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Usefull Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policity</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2022 - Raul Alves. Portfolio e- Commerce WebSite</p>
+        </div>
+    </div>
+
+    <!-------------------------js for toggle menu------------------->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems")
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px"
+            } else
+
+            {
+                MenuItems.style.maxHeight = "0px";
+
+            }
+
+        }
+    </script>
+
+
+</body>
+
+</html>
