@@ -1,0 +1,122 @@
+@media (min-width: 992px){
+    .produtos-destaque{
+        margin: 30px 0px;
+        display: grid;
+        grid-template-areas: 
+        "1 2 3";
+        margin-bottom: 100px;
+    }
+    .produtos-destaque img{
+        width: 350px;
+        display: block;
+	    margin: 0 auto;
+    }
+
+    .banner h1{
+        font-size: 80px;
+    }
+
+    .banner img{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .banner{
+    margin-bottom: 100px;
+    }
+
+    .banner button{
+        width: 300px;
+        padding: 20px 40px;
+    }
+
+    .container {
+        margin: 30px 0px;
+        display: grid;
+        grid-template-areas: 
+        "1 2 3 4 5";
+    }
+
+    .container img{
+        height: 104px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .button-item button{
+        background-color: rgb(209, 0, 0);
+		border: none;
+		color: white;
+		font-weight: bold;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		font-size: 16px;
+		cursor: pointer;
+        margin-bottom: 100px;
+    }
+
+    .vitrine h2{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .fotos .imagem-repetida{
+        display: none;
+    }
+
+    .fotos{
+        margin: 30px 0px;
+        display: grid;
+        grid-template-areas: 
+        "1 2"
+        "3 4";
+    }
+
+    .fotos img{
+        padding-top: 10px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    
+
+    .mensagem-final{
+        margin-top: 5   0px;
+    }
+
+    .vitrine{
+        padding: 50px 0;
+    }
+
+    .galery{
+        margin-bottom: 100px;
+    }
+    
+    .titulo-blog{
+        margin-top: 100px;
+    }
+
+    .button-blog{
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+
+    nav{
+        padding-bottom: 100px;
+    }
+
+    .header-holder{
+        padding: 20px 0;
+    }
+}
+
+
+@media (min-width: 1250px){
+    .blog {
+        margin: 30px 0px;
+        display: grid;
+        grid-template-areas: 
+        "1 2 3";
+    }
+}
