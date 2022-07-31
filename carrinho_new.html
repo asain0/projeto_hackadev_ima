@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="padrao.css">
+   <link rel="stylesheet" href="produto_new.css">
+   <title>Produto</title>
+</head>
+<body>
+   <header>
+   <!-- barra de navegação -->
+   <nav class="menuNav">
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="icon"><img class="menu" src="https://img.icons8.com/glyph-neue/64/000000/menu.png"/></i>
+		</label>
+		<label class="logo"><img src="./img/logoImaPequena.png" alt="Logo da empresa imã."></label>
+		<ul>
+			<li><a href="home.html" class="active" >Início</a></li>
+            <li><a href="#">Login</a></li>
+			<li><a href="cadastro.html">Cadastre-se</a></li>
+			<li><a href="catalogo.html">Catálogo</a></li>
+			<li><a href="cart.html">
+               <img class="carrinho" src="https://img.icons8.com/ios-filled/50/FFFFFF/shopping-bag.png"/>
+            </a>
+         </li>
+		</ul>
+	</nav>
+
+   </header>
+
+   <main>
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Produto</th>
+                <th>Unidade</th>
+                <th>valor</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/prod_1.png">
+                        <div>
+                            <p> CHUTEIRA X 19.3 FUTSAL</p>
+                            <small>Price: R$ 179,99 Até 4 x R$45,00 sem juros</small>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>179,99</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/prod_2.png">
+                        <div>
+                            <p>Calção/Short de Treino PROGNE SPORTS para Muay Thai</p>
+                            <small>Price: R$ 64,90 Até 2 x R$32,45 sem juros</small>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$64,90</td>
+            </tr>
+            
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$244.89</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$20.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$264.89</td>
+                </tr>
+            </table>
+            <button class=total__price-button type="button">Finalizar Compra</button>
+        </div>
+
+    </div>
+   </main>
+   
+   <footer>
+      <div class="inscreva">
+          <h2>FAÇA PARTE DA FAMÍLIA</h2>
+          <p>Insira seu e-mail e receba todas as notícias e promoções em primeira mão! </p>
+          <label for="">E-mail:</label>
+          <input type="email" name="email" id="email"><br>
+          <button class="button-email">ENVIAR</button>
+      </div>
+      
+      <div class="localizador">
+          <h4>LOCALIZADOR DE LOJAS</h4>
+          <p>Encontre a loja mais próxima de você</p>
+          <button class="button-footer">BUSCAR MAIS LOJAS</button>
+      </div>
+  
+      <div class="sites-estrangeiros">
+          <h4>PELO MUNDO</h4>
+          <p>Acesse o site de outros países</p>
+          <select name="paises" class="paises">
+              <option value="Brasil">BRASIL</option>
+              <option value="EUA">EUA</option>
+              <option value="Canada">CANADA</option>
+              <option value="Espanha">ESPANHA</option>
+          </select>
+      </div>
+
+      <div class="redes-sociais">
+          <h4>SIGA A IMÃ</h4>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Youtube</a>
+          <a href="#">Instagram</a>
+      </div>
+
+      <div class="COPYRIGHT">
+          <p>©Imã Learning Place</p><br>
+          <p>Rua do Parque, 361 Qd 145, Lt. Area 2, Goiânia - GO, 74343-240</p>
+      </div>
+  </footer>
+   
+</body>
+</html>
