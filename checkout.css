@@ -394,6 +394,18 @@ main{
    padding: 15px 0;
 }
 
+.sacola__opcoes a{
+   color: var(--main-bg-color);
+   background-color: var(--second-bg-color);
+   border: none;
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: 400;
+   font-size: 13px;
+}
+
 button{
    color: var(--main-bg-color);
    background-color: var(--second-bg-color);

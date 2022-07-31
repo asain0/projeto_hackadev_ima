@@ -194,7 +194,7 @@ nav {
 	height: 80px;
 	width: 100%;
 	border-bottom: 1px solid black;
-	background-color: rgb(167, 14, 19)
+	background-color: var(--second-color);
 }
 label.logo {
 	color: white;
@@ -220,7 +220,7 @@ nav ul li {
 nav ul li a {
 	color: white;
 	font-weight: bold;
-	background: #222222;
+	background: none;
 	font-size: 17px;
 	padding: 7px 13px;
 	border-radius: 3px;
