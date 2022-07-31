@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+	list-style: none;
 }
 
 body {
@@ -181,15 +183,7 @@ form button:hover {
    
 }
 
-
-
-* {
-	padding: 0;
-	margin: 0;
-	text-decoration: none;
-	list-style: none;
-	box-sizing: border-box;
-}
+/* novo css */
 
 h2, h4{
 	font-family: 'Mochiy Pop One', sans-serif;
