@@ -1,11 +1,11 @@
-* {
+/* * {
 	padding: 0;
 	margin: 0;
 	text-decoration: none;
 	list-style: none;
 	box-sizing: border-box;
 	
-	/* Padronizações */
+	Padronizações
 	--main-bg-color: #F8F5F5;
 	--second-color: #4F55E0;
 	--second-color-variant: #262bb3;
@@ -14,7 +14,7 @@
 	--second-bg-color: #A71717;
 	--main-font-style:'Roboto', sans-serif;
 	--second-font-style:'Mochiy Pop One', sans-serif;
-}
+} */
 
 body {
 	font-family: var(--main-font-style);
