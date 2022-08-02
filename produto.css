@@ -196,7 +196,8 @@ input[type='radio']{
 body{
    width: 100vw;
 }
-	@@ -96,7 +91,6 @@ footer{
+	/* @@ -96,7 +91,6 @@ */
+	 footer{
 	margin-bottom: 20px;
 }
 
@@ -204,8 +205,8 @@ body{
 footer h2, footer h4{
 	margin: 20px;
 }
-	@@ -144,20 +138,6 @@ footer h2, footer h4{
-}
+	/* @@ -144,20 +138,6 @@ 
+} */
 
 
 
