@@ -44,7 +44,7 @@
 	border: 1px solid	var(--ima-second-color-hover) !important;
 }
 
-/* Padrão de botão  */
+/* Padrão de botão  anchor*/
 .button-hckdv a{
 	width: 100%;
    background: var(--ima-buton-color) !important;
@@ -54,4 +54,19 @@
 .button-hckdv a:hover{
    background: var(--ima-second-color-hover) !important;
 	color: white !important;
+}
+
+/* padrão de botão button */
+
+.button-hckdv button{
+	width: 100%;
+   background: var(--ima-buton-color) !important;
+	color: white !important;
+	height: 100%;
+}
+
+.button-hckdv button:hover{
+   background: var(--ima-second-color-hover) !important;
+	color: white !important;
+	height: 100%;
 }

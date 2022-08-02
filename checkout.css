@@ -405,13 +405,13 @@ main{
    font-weight: 400;
    font-size: 13px;
 }
-
+/* asain
 button{
    color: var(--main-bg-color);
    background-color: var(--second-bg-color);
    border: none;
    padding: 5px;
-}
+} */
 
 input{
    color: var(--main-border);
@@ -470,6 +470,7 @@ input{
 }
 .fechar__pedido__btn{
    min-width: 300px;
+   max-width: 400px;
 }
 .escolher__pecas__btn{
    max-width: 300px;
