@@ -1,13 +1,12 @@
+html{
+   width: 100vw;
+}
+
 body {
 	font-family: var(--main-font-style);
 	background-color: var(--main-bg-color);
 	font-weight: bold;
 }
-
-html{
-	width: 100vw;
-}
-
 
 /* Navbar */
 
@@ -15,6 +14,10 @@ html{
 	height: 80px;
 	width: 100%;
 	background-color: var(--second-color);
+}
+
+.menu{
+   width: 40px;
 }
 
 .menuNav ul {
@@ -42,13 +45,10 @@ html{
 	transition: .5s;
 }
 
-.logo img{
+/* .logo img{
 	margin-top: 10px;
-}
+} */
 
-.menu{
-	width: 40px;
-}
 
 .carrinho{
 	width: 20px;
