@@ -7,6 +7,8 @@
 	list-style: none;
 	box-sizing: border-box;
 	
+	font-family: 'Poppins', sans-serif;
+
 	/* Padronizações */
 	--main-bg-color: #F8F5F5;
 	--second-color: #4F55E0;
@@ -21,6 +23,10 @@
 	--second-bg-color: #db0707d0;
 	--main-font-style:'Roboto', sans-serif;
 	--second-font-style:'Mochiy Pop One', sans-serif;
+}
+
+iframe{
+	width: 100%;
 }
 
 /* padrão de input radio */
