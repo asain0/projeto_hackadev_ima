@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" type="imagem/png" href="./img/favicon-ima.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="padrao.css" />
+    <link rel="stylesheet" href="home_style.css" />
+    <link rel="stylesheet" href="home_desktop.css" />
+    <link rel="stylesheet" href="catalog.css" />
+    <title>Hackadev Sports - Catálogo</title>
+  </head>
+  <body>
+    <header>
+      <!-- barra de navegação -->
+      <nav class="menuNav">
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="icon"
+            ><img
+              class="menu"
+              src="https://img.icons8.com/glyph-neue/64/000000/menu.png"
+          /></i>
+        </label>
+        <label class="logo"
+          ><img src="./img/logoImaPequena.png" alt="Logo da empresa imã."
+        /></label>
+        <ul>
+          <li><a href="home.html" class="active">Início</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="cadastro.html">Cadastre-se</a></li>
+          <li><a href="catalogo.html">Catálogo</a></li>
+          <li>
+            <a href="checkout.html">
+              <img
+                class="carrinho"
+                src="https://img.icons8.com/ios-filled/50/FFFFFF/shopping-bag.png"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <!-- <div class="catalog--title">
+          <h1>Catálogo</h1>
+        </div> -->
+        <div class="card">
+          <div class="product-image">
+            <img src="./img/bermuda-img.jpg" alt=" Calção/Short de Treino PROGNE SPORTS para Muay Thai">
+            <div class="product-info">
+              <h4> Calção/Short de Treino PROGNE SPORTS para Muay Thai</h4>
+              <h4>R$64,90</h4>
+            </div>
+            <div class="btn">
+              <button type="button">Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="product-image">
+              <img src="./img/chuteira--adidas.png" alt=" CHUTEIRA X 19.3 FUTSAL ">
+              <div class="product-info">
+                <h4> CHUTEIRA X 19.3 FUTSAL 
+                </h4>
+                <h4>R$ 179,99</h4>
+              </div>
+              <div class="btn">
+                <button type="button">Adicionar ao carrinho</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="product-image">
+                <img src="./img/ca1.png" alt="Camisa do Brasil CBF Casual Retrô - Masculina">
+                <div class="product-info">
+                  <h4> Camisa do Brasil CBF Casual Retrô - Masculina</h4>
+                  <h4>R$89,99</h4>
+                </div>
+                <div class="btn">
+                  <button type="button">Adicionar ao carrinho</button>
+                </div>
+              </div>
+              <div class="card">
+                <div class="product-image">
+                  <img src="./img/te1.png" alt=" Tênis Asics Gel-Cumulus 24 Se - Feminino">
+                  <div class="product-info">
+                    <h4> Tênis Asics Gel-Cumulus 24 Se - Feminino</h4>
+                    <h4>R$699,99</h4>
+                  </div>
+                  <div class="btn">
+                    <button type="button">Adicionar ao carrinho</button>
+                  </div>
+                </div>
+        </div>
+    </main>
+
+    <footer>
+      <div class="inscreva">
+        <h2 class="fonteTitulo">FAÇA PARTE DA FAMÍLIA</h2>
+        <p>
+          Insira seu e-mail e receba todas as notícias e promoções em primeira
+          mão!
+        </p>
+        <label for="">E-mail:</label>
+        <input type="email" name="email" id="email" /><br />
+        <button class="button-email">ENVIAR</button>
+      </div>
+
+      <div class="localizador">
+        <h4>LOCALIZADOR DE LOJAS</h4>
+        <p>Encontre a loja mais próxima de você</p>
+        <button class="button-footer">BUSCAR MAIS LOJAS</button>
+      </div>
+
+      <div class="sites-estrangeiros">
+        <h4>PELO MUNDO</h4>
+        <p>Acesse o site de outros países</p>
+        <select name="paises" class="paises">
+          <option value="Brasil">BRASIL</option>
+          <option value="EUA">EUA</option>
+          <option value="Canada">CANADA</option>
+          <option value="Espanha">ESPANHA</option>
+        </select>
+      </div>
+
+      <div class="redes-sociais">
+        <h4>SIGA A IMÃ</h4>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Youtube</a>
+        <a href="#">Instagram</a>
+      </div>
+
+      <div class="COPYRIGHT">
+        <p>©Imã Learning Place</p>
+        <br />
+        <p>Rua do Parque, 361 Qd 145, Lt. Area 2, Goiânia - GO, 74343-240</p>
+      </div>
+    </footer>
+  </body>
+</html>
