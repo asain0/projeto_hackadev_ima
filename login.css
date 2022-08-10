@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.containerBox {
+  text-align: center;
+}
+
+.tittleBox {
+  font-size: 25px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.informacaoAtalho {
+  font-size: 15px;
+  color: #555;
+  padding-bottom: 15px;
+}
+
+.boxBotton {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding-left: 8px;
+  display: inline-block;
+}
+
+.logoGoogle, .logoFacebook, .logoApple {
+  
+  width: 90px;
+  height: 60px;
+  border: #c9c9c9 solid 1px;
+  border-radius: 3px;
+  font-size: 30px;
+  text-align: center;   
+}
+
+.logoGoogle {
+  color: red;
+  padding-top: 14px;
+}
+
+.logoFacebook {
+  color: blue;
+  padding-top: 14px;
+}
+
+.logoApple {
+  color:black;
+  padding-top: 13px;   
+}
+
+.logoGoogle:hover, .logoFacebook:hover, .logoApple:hover {
+  cursor: pointer;
+  box-shadow: 0 0 11px #c9c9c9;
+}
+
+.icones {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.listLogin .listEmail {
+  color: #555;
+  font-size: 15px;
+}
+
+.listInput {
+  color:#c9c9c9;
+  width: 90%;
+  height: 35px;
+  margin-bottom: 20px;
+  margin-top: 6px;
+
+}
+
+.passwordLost, .boxConexao {
+  color: #555;
+  text-align: left;
+  margin-left: 30px;
+  font-size: 13px;
+  padding-bottom: 14px;
+}
+
+.boxConexao input:hover, .boxConexao label:hover {
+  cursor: pointer;
+}
+
+.botaoLogin button, .botaoCadastro button {
+
+  text-align: center;
+  width: 90%;
+  height: 35px;
+  border: none;
+  margin-bottom: 15px;
+ 
+}
+
+.botaoLogin button {
+  background: #4252dd;
+  color: white;
+}
+
+.botaoCadastro button{
+  font-weight: bold;
+  color:#8827af;
+  border:#8827af solid 2px;
+}
+
+.botaoCadastro button:hover, .botaoLogin button:hover {
+  cursor: pointer;
+}
+
+/* LAYOU SECTION */
+
+@media (min-width:991px) {
+
+.containerBox {
+  width: 100vw;
+  height: 100vh;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  width: 500px;
+  height: 620px;
+  border: 1px solid #000000;
+}
+}
