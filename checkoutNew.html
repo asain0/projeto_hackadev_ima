@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="checkoutNew.css">
+   <link rel="stylesheet" href="padrao.css">
+   <title>Checkout</title>
+</head>
+<body>
+
+   <!-- barra de navegação -->
+   <nav class="menuNav">
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="icon"><img class="menu" src="https://img.icons8.com/glyph-neue/64/000000/menu.png"/></i>
+		</label>
+		<label class="menuNav__logo"><img src="./img/logoImaPequena.png" alt="Logo da empresa imã."></label>
+		<ul>
+			<li><a href="home.html" class="active" >Início</a></li>
+            <li><a href="#">Login</a></li>
+			<li><a href="cadastro.html">Cadastre-se</a></li>
+			<li><a href="catalogo.html">Catálogo</a></li>
+			<li><a href="cart.html">
+               <img class="carrinho" src="https://img.icons8.com/ios-filled/50/FFFFFF/shopping-bag.png"/>
+            </a>
+         </li>
+		</ul>
+	</nav>
+ 
+   <main class="checkout">
+      <div class="checkout__description">
+         <div class="user checkout__description__card">
+            <h4>1. Comprador</h4>
+            <div class="checkout__user__data">
+               <p>Anderson Araujo</p>
+            </div>
+            <a href="#" class="btn-alterar"> Alterar</a>
+
+         </div>
+         <div class="addressDelivery checkout__description__card">
+            <h4>2. Endereço de entrega</h4>
+            <div class="checkout__addressDelivery__data">
+               <p>Avenida Goiás</p>
+               <p>N.143</p>
+               <p>Ed.Florença Ap. 204-B</p>
+               <p>Goiania - Goiás - 74000-00</p>
+               <a href="#">Adicionar instruções de entrega</a>
+            </div>
+            <a href="#"> Alterar</a>
+
+         </div>
+         <div class="payments checkout__description__card">
+            <h4>3. Formas de pagamento</h4>
+            <div class="payments__data">
+               <img src="https://images-na.ssl-images-amazon.com/images/G/32/checkout/payselect/card-logos-small/mc._CB485935052_.gif" alt=""> MasterCard (Crédito) termina em 5775
+            </div>
+            <a href="#"> Alterar</a>
+         </div>
+
+         <div class="products ">
+            <h4>4. Revisar pedido</h4>
+            <div class="products__list">
+
+               <div class="products__item">
+                  <img src="./img/bermuda-img.jpg" alt="">
+                  <div class="item_resume">
+                     <h5>Bermuda Muay Thai Coral Competition</h5>
+                     <small>G</small>
+                     <div class="item__resume__price">R$ 49,76</div>
+                     <div class="item__resume_qtde">
+                        <div class="button-hckdv">
+                           <a href="#"> 
+                              <img src="./img/add-btn.svg" alt=""> 
+                           </a>
+                        </div>
+                        1 
+                        <div class="button-hckdv">
+                           <a href="#"> 
+                              <img src="./img/less-btn.svg" alt=""> 
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item__delivery">
+                     <h5>Escolha uma opção de entrega:</h5>
+                     <label for="expressDelivery"><input type="radio" id="expressDelivery" name="typeDelivery">Entrega expressa - Receba em 5 dias úteis</label>
+                     <label for="standardDelivery"><input type="radio" id="standardDelivery" name="typeDelivery">Entrega padrão - Receba em 14 dias úteis</label>
+                  </div>
+               </div>
+              
+               <div class="products__item">
+                  <img src="./img/bermuda-img.jpg" alt="">
+                  <div class="item_resume">
+                     <h5>Bermuda Muay Thai Coral Competition</h5>
+                     <small>G</small>
+                     <div class="item__resume__price">R$ 49,76</div>
+                     <div class="item__resume_qtde">
+                        <div class="button-hckdv">
+                           <a href="#"> 
+                              <img src="./img/add-btn.svg" alt=""> 
+                           </a>
+                        </div>
+                        1 
+                        <div class="button-hckdv">
+                           <a href="#"> 
+                              <img src="./img/less-btn.svg" alt=""> 
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item__delivery">
+                     <h5>Escolha uma opção de entrega:</h5>
+                     <label for="expressDelivery"><input type="radio" id="expressDelivery" name="typeDelivery">Entrega expressa - Receba em 5 dias úteis</label>
+                     <label for="standardDelivery"><input type="radio" id="standardDelivery" name="typeDelivery">Entrega padrão - Receba em 14 dias úteis</label>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+         <div class="totalOrder">
+            Total do pedido
+         </div>
+         
+      </div>
+      <div class="checkout__accept">
+         Finalizar pedido
+      </div>
+   </main>
+   
+   <footer>
+      <div class="inscreva">
+          <h2>FAÇA PARTE DA FAMÍLIA</h2>
+          <p>Insira seu e-mail e receba todas as notícias e promoções em primeira mão! </p>
+          <label for="">E-mail:</label>
+          <input type="email" name="email" id="email"><br>
+          <button class="button-email">ENVIAR</button>
+      </div>
+      
+      <div class="localizador">
+          <h4>LOCALIZADOR DE LOJAS</h4>
+          <p>Encontre a loja mais próxima de você</p>
+          <button class="button-footer">BUSCAR MAIS LOJAS</button>
+      </div>
+  
+      <div class="sites-estrangeiros">
+          <h4>PELO MUNDO</h4>
+          <p>Acesse o site de outros países</p>
+          <select name="paises" class="paises">
+              <option value="Brasil">BRASIL</option>
+              <option value="EUA">EUA</option>
+              <option value="Canada">CANADA</option>
+              <option value="Espanha">ESPANHA</option>
+          </select>
+      </div>
+
+      <div class="redes-sociais">
+          <h4>SIGA A IMÃ</h4>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Youtube</a>
+          <a href="#">Instagram</a>
+      </div>
+
+      <div class="COPYRIGHT">
+          <p>©Imã Learning Place</p><br>
+          <p>Rua do Parque, 361 Qd 145, Lt. Area 2, Goiânia - GO, 74343-240</p>
+      </div>
+  </footer>
+
+</body>
+</html>
